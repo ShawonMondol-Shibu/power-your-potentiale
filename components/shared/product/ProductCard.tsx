@@ -26,6 +26,7 @@ export default function ProductCard({
             src={image}
             alt={name}
             fill
+            sizes=""
             className="object-cover transition-transform duration-300 ease-in-out hover:scale-105"
             priority
           />
@@ -37,7 +38,7 @@ export default function ProductCard({
       {/* Footer / Rating & Add Button */}
       <CardFooter className="mt-2 flex items-center justify-between bg-black border-none p-0 pb-4">
         <div className="space-y-3 ">
-          <h3 className="text-2xl font-normal leading-tight">{name}</h3>
+          <h3 className="text-2xl font-normal line-clamp-1 leading-tight">{name}</h3>
 
           <div className="flex items-center justify-start gap-4">
             <p className="text-3xl font-medium tracking-tight">

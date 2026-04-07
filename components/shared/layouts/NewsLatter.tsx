@@ -27,7 +27,7 @@ const Newsletter = () => {
 
         {/* Headline with Custom Animated Underline */}
         <motion.div variants={itemVariants} className="relative mb-6">
-          <h2 className="text-white text-4xl md:text-6xl font-bold tracking-tight">
+          <h2 className="text-white font-tilt text-4xl md:text-6xl font-normal tracking-tight">
             Subscribe to our{" "}
             <span className="relative inline-block">
               newsletter

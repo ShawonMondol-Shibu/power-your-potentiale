@@ -11,9 +11,9 @@ export default function FocusItem({ title, description}: { title: string; descri
     className="space-y-1.5"
   >
     <div className="flex items-center gap-2">
-      <h3 className="font-bold text-[17px] text-white tracking-tight">{title}</h3>
+      <h3 className="font-bold text-2xl font-satoshi text-white tracking-tight">{title}</h3>
     </div>
-    <p className="text-zinc-400 text-sm leading-relaxed max-w-sm pl-3.5">
+    <p className="text-zinc-400 text-xl leading-relaxed max-w-sm pl-3.5">
       {description}
     </p>
   </motion.div>

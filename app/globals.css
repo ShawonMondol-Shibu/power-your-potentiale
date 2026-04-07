@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "Tilt Wrap";
+  src: url("../assets/fonts/TiltWrap.ttf");
+}
+
+@font-face {
+  font-family: "Satoshi Regular";
+
+  src: url("../assets/fonts/Satoshi-Regular.woff");
+}
+
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
@@ -7,6 +18,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --font-tilt: "Tilt Wrap", sans-serif;
+  --font-satoshi: "Satoshi Regular", sans-serif;
   --font-sans: var(--font-sans);
   --font-mono: var(--font-geist-mono);
   --font-heading: var(--font-sans);

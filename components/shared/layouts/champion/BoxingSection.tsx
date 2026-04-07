@@ -72,7 +72,7 @@ const BoxingSection = () => {
         <div className="lg:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-12 h-full">
           {/* Section 1: Training Focus Areas */}
           <motion.div variants={textGroupVariants} className="space-y-8">
-            <h2 className="text-xl font-bold tracking-tight text-white/90 uppercase text-[13px]">
+            <h2 className="text-2xl font-bold tracking-tight text-white/90 uppercase text-[13px]">
               Training Focus Areas
             </h2>
             <div className="space-y-8">
