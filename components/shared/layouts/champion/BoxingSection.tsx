@@ -43,7 +43,7 @@ const WhyItems = [
 
 const BoxingSection = () => {
   return (
-    <div className="bg-black flex items-center justify-center py-20 px-6 overflow-hidden">
+    <div className="bg-black flex items-center justify-between py-10 px-10 overflow-hidden rounded-4xl">
       <motion.div
         initial="hidden"
         whileInView="visible"
@@ -103,30 +103,26 @@ const BoxingSection = () => {
                     description={item.description}
                   />
                 ))}
+
+                <div className="flex items-center gap-6">
+                  <motion.button
+                    whileHover={{ scale: 1.02, backgroundColor: "#4ea532" }}
+                    whileTap={{ scale: 0.98 }}
+                    className="bg-[#5cb93c] text-black font-extrabold py-5 px-12 rounded-3xl transition-colors text-lg shadow-[0_10px_30px_rgba(92,185,60,0.25)]"
+                  >
+                    Punch Now
+                  </motion.button>
+
+                  <motion.button
+                    whileHover={{ scale: 1.1, rotate: 5 }}
+                    whileTap={{ scale: 0.9 }}
+                    className="relative flex items-center justify-center w-16 h-16 rounded-full border-2 border-dashed border-[#5cb93c]/40 hover:border-[#5cb93c] transition-colors group bg-zinc-900/50"
+                  >
+                    <Play className="w-6 h-6 text-[#5cb93c] fill-[#5cb93c] ml-1 transition-transform" />
+                  </motion.button>
+                </div>
               </div>
             </div>
-
-            {/* Action Group */}
-            <motion.div
-              variants={textGroupVariants}
-              className="mt-16 flex items-center gap-6"
-            >
-              <motion.button
-                whileHover={{ scale: 1.02, backgroundColor: "#4ea532" }}
-                whileTap={{ scale: 0.98 }}
-                className="bg-[#5cb93c] text-black font-extrabold py-5 px-12 rounded-3xl transition-colors text-lg shadow-[0_10px_30px_rgba(92,185,60,0.25)]"
-              >
-                Punch Now
-              </motion.button>
-
-              <motion.button
-                whileHover={{ scale: 1.1, rotate: 5 }}
-                whileTap={{ scale: 0.9 }}
-                className="relative flex items-center justify-center w-16 h-16 rounded-full border-2 border-dashed border-[#5cb93c]/40 hover:border-[#5cb93c] transition-colors group bg-zinc-900/50"
-              >
-                <Play className="w-6 h-6 text-[#5cb93c] fill-[#5cb93c] ml-1 transition-transform" />
-              </motion.button>
-            </motion.div>
           </motion.div>
         </div>
       </motion.div>
