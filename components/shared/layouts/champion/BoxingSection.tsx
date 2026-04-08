@@ -61,6 +61,7 @@ const BoxingSection = () => {
               src="/champion.png"
               alt="Boxing Trainer"
               fill
+              sizes="500px"
               className="w-full h-full object-cover grayscale-[0.3] group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105"
             />
             {/* Subtle Overlay Gradient */}

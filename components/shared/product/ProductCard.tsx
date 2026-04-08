@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import { Plus, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -26,7 +27,7 @@ export default function ProductCard({
             src={image}
             alt={name}
             fill
-            sizes=""
+            sizes="500px"
             className="object-cover transition-transform duration-300 ease-in-out hover:scale-105"
             priority
           />
