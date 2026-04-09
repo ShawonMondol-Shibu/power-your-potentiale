@@ -1,6 +1,6 @@
 import Champion from "@/components/shared/layouts/Champion";
 import Header from "@/components/shared/layouts/Header";
-import Newsletter from "@/components/shared/layouts/NewsLatter";
+import Newsletter from "@/components/shared/layouts/NewsLetter";
 import OurClients from "@/components/shared/layouts/OurClients";
 import OurProducts from "@/components/shared/layouts/OurProducts";
 import Pattern from "@/components/shared/layouts/Pattern";

@@ -1,5 +1,6 @@
 import Footer from "@/components/shared/layouts/Footer";
 import Navbar from "@/components/shared/layouts/Navbar";
+import { TooltipProvider } from "@/components/ui/tooltip";
 
 export default function PagesLayout({
   children,
@@ -8,9 +9,12 @@ export default function PagesLayout({
 }>) {
   return (
     <main className="relative container mx-auto flex min-h-full flex-col space-y-20">
+      <TooltipProvider>
       <Navbar />
+
       {children}
       <Footer />
+      </TooltipProvider>
     </main>
   );
 }
