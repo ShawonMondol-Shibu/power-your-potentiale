@@ -82,9 +82,9 @@ A professional, high-performance web application built with the **Next.js 16 App
 
 ## 📸 Screenshots
 
-| Auth Screens | Main Dashboard |
+| Auth Screens | Main Home |
 | :---: | :---: |
-| ![Login](public/auth.png) | ![Dashboard](https://via.placeholder.com/400x250?text=Main+App+UI) |
+| ![Login](public/auth.png) | ![Home](public/home.png) |
 
 ## 👤 Author
 
